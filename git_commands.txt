@@ -1,0 +1,84 @@
+
+1. mkdir GitAssignment
+   Creates a new project directory.
+
+2. cd GitAssignment
+   Navigates into the project directory.
+
+3. touch index.html about.html
+   Creates the required HTML files.
+
+4. git init
+   Initializes a new local Git repository.
+
+5. git branch -M main
+   Renames the default branch to main.
+
+6. git status
+   Displays the current repository status.
+
+7. git add .
+   Stages all changes for committing.
+
+8. git commit -m "Initial commit: Add HTML files"
+   Records the initial project files.
+
+9. git add index.html
+   Stages changes made to index.html.
+
+10. git commit -m "Update homepage content"
+    Records the homepage modification.
+
+11. git branch feature
+    Creates a new branch named feature.
+
+12. git switch feature
+    Switches to the feature branch.
+
+13. git add about.html
+    Stages changes made to about.html.
+
+14. git commit -m "Add feature branch update to about page"
+    Records the feature branch changes.
+
+15. git switch main
+    Switches back to the main branch.
+
+16. git merge feature
+    Merges feature branch changes into main.
+
+17. git log --oneline --graph --all
+    Displays commit history and branch structure.
+
+18. touch .gitignore
+    Creates the Git ignore configuration file.
+
+19. mkdir temp
+    Creates a temporary folder for testing .gitignore.
+
+20. touch application.log
+    Creates a log file for testing .gitignore.
+
+21. git add .gitignore
+    Stages the .gitignore file.
+
+22. git commit -m "Add gitignore for log files and temp folder"
+    Records the ignore configuration.
+
+23. git add index.html
+    Stages the temporary modification.
+
+24. git commit -m "Add temporary change for undo demonstration"
+    Records the additional commit.
+
+25. git revert HEAD
+    Creates a new commit that reverses the previous commit.
+
+26. git remote add origin URL
+    Connects the local repository to GitHub.
+
+27. git push -u origin main
+    Pushes the main branch to GitHub.
+
+28. git push -u origin feature
+    Pushes the feature branch to GitHub.
